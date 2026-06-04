@@ -261,15 +261,20 @@ export default function App() {
         isListeningRef.current = false;
         setIsListening(false);
 
-        if (advanceAfterEndRef.current) {
-          advanceAfterEndRef.current = false;
-
-          setTimeout(() => {
+        // 기존: 즉시 처리 → 변경: result가 아직 안 왔을 수 있으므로 딜레이
+        setTimeout(() => {
+          if (advanceAfterEndRef.current) {
+            advanceAfterEndRef.current = false;
             goToNextPracticeItem();
-          }, 500);
-
-          return;
-        }
+            return;
+          }
+          if (retryAfterEndRef.current) {
+            retryAfterEndRef.current = false;
+            startRecognition();
+            return;
+          }
+          setListeningStatus("인식이 종료됐어요.");
+        }, 300); // ← 이 딜레이가 핵심
 
         if (retryAfterEndRef.current) {
           retryAfterEndRef.current = false;

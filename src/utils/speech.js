@@ -1,16 +1,37 @@
 export function speak(text, rate = 1, onEnd) {
   if (!text) return;
 
-  const utterance = new SpeechSynthesisUtterance(text);
-  utterance.lang = "en-US";
-  utterance.rate = rate;
+  window.speechSynthesis.cancel();
 
-  utterance.onend = () => {
-    if (onEnd) onEnd();
+  const trySpeak = () => {
+    const voices = window.speechSynthesis.getVoices();
+
+    const preferredVoice =
+      voices.find((v) => v.name === "Samantha") ||        // macOS 최자연스러움
+      voices.find((v) => v.name === "Google US English") || // Chrome
+      voices.find((v) => v.lang === "en-US") ||
+      null;
+
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = "en-US";
+    utterance.rate = rate;
+    if (preferredVoice) utterance.voice = preferredVoice;
+
+    utterance.onend = () => {
+      if (onEnd) onEnd();
+    };
+
+    window.speechSynthesis.speak(utterance);
   };
 
-  window.speechSynthesis.cancel();
-  window.speechSynthesis.speak(utterance);
+  if (window.speechSynthesis.getVoices().length === 0) {
+    window.speechSynthesis.onvoiceschanged = () => {
+      window.speechSynthesis.onvoiceschanged = null;
+      trySpeak();
+    };
+  } else {
+    trySpeak();
+  }
 }
 
 export function startSpeechRecognition({
