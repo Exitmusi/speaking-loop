@@ -1,0 +1,314 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  background: #f3f4f6;
+  color: #111827;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 24px;
+}
+
+.card {
+  width: 100%;
+  max-width: 560px;
+  background: white;
+  border-radius: 24px;
+  padding: 28px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  margin: 0 0 8px;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 24px;
+}
+
+label {
+  display: block;
+  margin-top: 16px;
+  margin-bottom: 6px;
+  font-weight: 700;
+}
+
+select,
+input {
+  width: 100%;
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  margin-top: 16px;
+  padding: 14px;
+  border: none;
+  border-radius: 14px;
+  font-size: 16px;
+  font-weight: 800;
+  cursor: pointer;
+  background: #111827;
+  color: white;
+}
+
+button:disabled {
+  background: #c7c7c7;
+  cursor: not-allowed;
+}
+
+.password-hint,
+.empty-state {
+  margin-top: 20px;
+  padding: 14px;
+  background: #f9fafb;
+  border-radius: 14px;
+  color: #555;
+  font-size: 14px;
+}
+
+.password-hint p {
+  margin: 4px 0;
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.small-button {
+  width: auto;
+  min-width: 80px;
+  margin-top: 0;
+  padding: 10px 12px;
+  font-size: 14px;
+  background: #6b7280;
+}
+
+.unit-title {
+  color: #111827;
+  font-size: 20px;
+  font-weight: 900;
+  margin: 0;
+}
+
+.target-level {
+  color: #666;
+  margin-top: 4px;
+  font-size: 14px;
+}
+
+.pattern-box {
+  margin-top: 18px;
+  padding: 16px;
+  border-radius: 18px;
+  background: #f9fafb;
+}
+
+.pattern-title {
+  margin: 0 0 10px;
+  font-weight: 800;
+}
+
+.pattern-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.pattern-chip {
+  display: inline-block;
+  padding: 7px 10px;
+  border-radius: 999px;
+  background: #e5e7eb;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.progress {
+  margin: 18px 0 10px;
+  color: #555;
+  font-weight: 700;
+}
+
+.sentence-box {
+  background: #f9fafb;
+  border-radius: 18px;
+  padding: 20px;
+  margin: 12px 0 18px;
+}
+
+.sentence {
+  font-size: 23px;
+  font-weight: 900;
+  line-height: 1.4;
+  margin: 0 0 10px;
+}
+
+.meaning {
+  color: #555;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.highlight-sentence {
+  font-size: 21px;
+  line-height: 1.8;
+  margin: 18px 0 0;
+}
+
+.word {
+  display: inline-block;
+  padding: 3px 5px;
+  border-radius: 7px;
+  margin-right: 2px;
+  margin-bottom: 5px;
+}
+
+.word.recognized {
+  background: #bbf7d0;
+  color: #166534;
+  font-weight: 900;
+}
+
+.word.pending {
+  background: #eef2f7;
+  color: #9ca3af;
+}
+
+.button-row,
+.nav-row {
+  display: flex;
+  gap: 10px;
+}
+
+.button-row button,
+.nav-row button {
+  flex: 1;
+}
+
+.speak-button {
+  background: #2563eb;
+}
+
+.next-button {
+  background: #16a34a;
+}
+
+.sound-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 14px;
+  font-size: 14px;
+  color: #555;
+}
+
+.sound-toggle input {
+  width: auto;
+}
+
+.status-text {
+  margin-top: 12px;
+  padding: 12px;
+  background: #eff6ff;
+  color: #1d4ed8;
+  border-radius: 12px;
+  font-weight: 700;
+}
+
+.result-box {
+  margin-top: 20px;
+  background: #f3f4f6;
+  border-radius: 18px;
+  padding: 16px;
+}
+
+.result-label {
+  margin-top: 0;
+  color: #555;
+  font-weight: 700;
+}
+
+.score {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.good {
+  color: #15803d;
+  font-weight: 900;
+}
+
+.try {
+  color: #b45309;
+  font-weight: 900;
+}
+
+.attempts,
+.hint {
+  color: #666;
+  font-size: 14px;
+}
+
+.section {
+  margin-top: 26px;
+  padding-top: 18px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.dialogue-line {
+  background: #f9fafb;
+  border-radius: 14px;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+}
+
+.dialogue-line p {
+  margin: 6px 0;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+code {
+  background: #e5e7eb;
+  padding: 2px 5px;
+  border-radius: 5px;
+}
+
+.chunk-label {
+  font-size: 14px;
+  font-weight: 800;
+  color: #2563eb;
+  margin: 0 0 8px;
+}
+
+.auto-button {
+  background: #7c3aed;
+}
+
+.auto-button.active {
+  background: #dc2626;
+}

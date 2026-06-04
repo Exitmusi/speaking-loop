@@ -1,0 +1,95 @@
+{
+    "title": "Ordering at a cafe",
+    "targetLevel": "Basic Scene Speaking",
+    "focusPatterns": [
+        "I'd like to + verb",
+        "I'd like to order ~",
+        "I'd like to try ~"
+    ],
+    "sentences": [
+        {
+            "text": "I was supposed to meet my friend at two.",
+            "meaning": "저는 두 시에 친구를 만나기로 되어 있었어요.",
+            "chunks": [
+                "I was supposed to",
+                "meet my friend",
+                "at two",
+                "I was supposed to meet my friend at two"
+            ]
+        },
+        {
+            "text": "But I left home too late.",
+            "meaning": "그런데 집에서 너무 늦게 나왔어요.",
+            "chunks": [
+                "But I left",
+                "home too late",
+                "But I left home too late"
+            ]
+        },
+        {
+            "text": "I was supposed to take the subway.",
+            "meaning": "지하철을 타기로 되어 있었어요.",
+            "chunks": [
+                "I was supposed to",
+                "take the subway",
+                "I was supposed to take the subway"
+            ]
+        },
+        {
+            "text": "But the station was packed with people.",
+            "meaning": "그런데 역이 사람들로 가득했어요.",
+            "chunks": [
+                "But the station",
+                "was packed",
+                "with people",
+                "But the station was packed with people"
+            ]
+        },
+        {
+            "text": "I checked the time and started to panic.",
+            "meaning": "시간을 확인하고 당황하기 시작했어요.",
+            "chunks": [
+                "I checked the time",
+                "and started to panic",
+                "I checked the time and started to panic"
+            ]
+        },
+        {
+            "text": "I wasn't supposed to be late again.",
+            "meaning": "또 늦으면 안 되는 상황이었어요.",
+            "chunks": [
+                "I wasn't supposed to",
+                "be late again",
+                "I wasn't supposed to be late again"
+            ]
+        },
+        {
+            "text": "I called my friend and apologized.",
+            "meaning": "친구에게 전화해서 사과했어요.",
+            "chunks": [
+                "I called my friend",
+                "and apologized",
+                "I called my friend and apologized"
+            ]
+        },
+        {
+            "text": "He sounded annoyed, but he waited for me.",
+            "meaning": "친구는 짜증난 것 같았지만 기다려줬어요.",
+            "chunks": [
+                "He sounded annoyed",
+                "but he waited",
+                "for me",
+                "He sounded annoyed, but he waited for me"
+            ]
+        },
+        {
+            "text": "I felt bad, so I bought him coffee.",
+            "meaning": "미안해서 커피를 사줬어요.",
+            "chunks": [
+                "I felt bad",
+                "so I bought him coffee",
+                "I felt bad, so I bought him coffee"
+            ]
+        }
+    ]
+}

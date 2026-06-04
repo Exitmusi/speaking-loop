@@ -1,0 +1,162 @@
+{
+  "title": "Choosing dinner with a friend",
+  "targetLevel": "Basic Scene Speaking",
+  "sentences": [
+    {
+      "text": "I met my friend after work.",
+      "meaning": "퇴근 후에 친구를 만났어요.",
+      "chunks": [
+        "I met",
+        "my friend",
+        "after work",
+        "I met my friend after work"
+      ]
+    },
+    {
+      "text": "We wanted to have dinner.",
+      "meaning": "우리는 저녁을 먹고 싶었어요.",
+      "chunks": [
+        "We wanted to",
+        "have dinner",
+        "We wanted to have dinner"
+      ]
+    },
+    {
+      "text": "But I didn't know any good places.",
+      "meaning": "그런데 저는 좋은 곳을 몰랐어요.",
+      "chunks": [
+        "But I didn't know",
+        "any good places",
+        "But I didn't know any good places"
+      ]
+    },
+    {
+      "text": "My friend wasn't sure either.",
+      "meaning": "친구도 확신이 없었어요.",
+      "chunks": [
+        "My friend wasn't",
+        "sure either",
+        "My friend wasn't sure either"
+      ]
+    },
+    {
+      "text": "I looked around the street.",
+      "meaning": "저는 거리를 둘러봤어요.",
+      "chunks": [
+        "I looked around",
+        "the street",
+        "I looked around the street"
+      ]
+    },
+    {
+      "text": "There was a small pizza place.",
+      "meaning": "작은 피자집이 있었어요.",
+      "chunks": [
+        "There was",
+        "a small pizza place",
+        "There was a small pizza place"
+      ]
+    },
+    {
+      "text": "I said, how about pizza?",
+      "meaning": "제가 피자는 어때? 라고 말했어요.",
+      "chunks": [
+        "I said",
+        "how about pizza",
+        "I said, how about pizza"
+      ]
+    },
+    {
+      "text": "My friend smiled and said yes.",
+      "meaning": "친구는 웃으면서 좋다고 했어요.",
+      "chunks": [
+        "My friend smiled",
+        "and said yes",
+        "My friend smiled and said yes"
+      ]
+    },
+    {
+      "text": "The menu was on the wall.",
+      "meaning": "메뉴가 벽에 있었어요.",
+      "chunks": [
+        "The menu",
+        "was on the wall",
+        "The menu was on the wall"
+      ]
+    },
+    {
+      "text": "I couldn't see it clearly.",
+      "meaning": "저는 그것을 잘 볼 수 없었어요.",
+      "chunks": [
+        "I couldn't see it",
+        "clearly",
+        "I couldn't see it clearly"
+      ]
+    },
+    {
+      "text": "I asked the staff politely.",
+      "meaning": "저는 직원에게 정중하게 부탁했어요.",
+      "chunks": [
+        "I asked",
+        "the staff politely",
+        "I asked the staff politely"
+      ]
+    },
+    {
+      "text": "Would you please show me the menu?",
+      "meaning": "메뉴를 보여주시겠어요?",
+      "chunks": [
+        "Would you please",
+        "show me",
+        "the menu",
+        "Would you please show me the menu"
+      ]
+    },
+    {
+      "text": "The staff gave me a menu.",
+      "meaning": "직원이 저에게 메뉴를 줬어요.",
+      "chunks": [
+        "The staff gave",
+        "me a menu",
+        "The staff gave me a menu"
+      ]
+    },
+    {
+      "text": "I wasn't nervous anymore.",
+      "meaning": "저는 더 이상 긴장하지 않았어요.",
+      "chunks": [
+        "I wasn't",
+        "nervous anymore",
+        "I wasn't nervous anymore"
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "a": "What did you do after work?",
+      "b": "I met my friend and we wanted to have dinner."
+    },
+    {
+      "a": "Did you know a good place?",
+      "b": "No, I didn't know any good places."
+    },
+    {
+      "a": "What did you suggest?",
+      "b": "I said, how about pizza?"
+    },
+    {
+      "a": "Was your friend okay with that?",
+      "b": "Yes, my friend smiled and said yes."
+    },
+    {
+      "a": "What did you ask the staff?",
+      "b": "I said, would you please show me the menu?"
+    }
+  ],
+  "freeTalkQuestions": [
+    "What do you usually suggest for dinner?",
+    "Do you say how about pizza often?",
+    "When do you use would you please?",
+    "What do you say when you don't know a good place?"
+  ]
+}

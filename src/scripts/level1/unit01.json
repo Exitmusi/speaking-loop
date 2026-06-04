@@ -1,0 +1,154 @@
+{
+  "title": "Joining a new gym",
+  "targetLevel": "Basic Scene Speaking",
+  "sentences": [
+    {
+      "text": "I went to a new gym.",
+      "meaning": "새 헬스장에 갔어요.",
+      "chunks": [
+        "I went",
+        "to a new gym",
+        "I went to a new gym"
+      ]
+    },
+    {
+      "text": "I wanted to ask about the price.",
+      "meaning": "가격에 대해 물어보고 싶었어요.",
+      "chunks": [
+        "I wanted to",
+        "ask about the price",
+        "I wanted to ask about the price"
+      ]
+    },
+    {
+      "text": "The staff looked very busy.",
+      "meaning": "직원이 아주 바빠 보였어요.",
+      "chunks": [
+        "The staff looked",
+        "very busy",
+        "The staff looked very busy"
+      ]
+    },
+    {
+      "text": "I waited for a minute.",
+      "meaning": "저는 잠깐 기다렸어요.",
+      "chunks": [
+        "I waited",
+        "for a minute",
+        "I waited for a minute"
+      ]
+    },
+    {
+      "text": "Then I asked him politely.",
+      "meaning": "그다음 정중하게 물어봤어요.",
+      "chunks": [
+        "Then I asked",
+        "him politely",
+        "Then I asked him politely"
+      ]
+    },
+    {
+      "text": "Can you explain the membership plans?",
+      "meaning": "회원권 종류를 설명해주실 수 있나요?",
+      "chunks": [
+        "Can you",
+        "explain",
+        "the membership plans",
+        "Can you explain the membership plans"
+      ]
+    },
+    {
+      "text": "He showed me three different plans.",
+      "meaning": "그는 세 가지 다른 회원권을 보여줬어요.",
+      "chunks": [
+        "He showed me",
+        "three different plans",
+        "He showed me three different plans"
+      ]
+    },
+    {
+      "text": "I looked at the prices carefully.",
+      "meaning": "저는 가격을 신중하게 봤어요.",
+      "chunks": [
+        "I looked at",
+        "the prices carefully",
+        "I looked at the prices carefully"
+      ]
+    },
+    {
+      "text": "I'd like to try it for one month.",
+      "meaning": "한 달 동안 이용해보고 싶어요.",
+      "chunks": [
+        "I'd like to",
+        "try it",
+        "for one month",
+        "I'd like to try it for one month"
+      ]
+    },
+    {
+      "text": "I think the gym is clean.",
+      "meaning": "헬스장이 깨끗한 것 같아요.",
+      "chunks": [
+        "I think",
+        "the gym is clean",
+        "I think the gym is clean"
+      ]
+    },
+    {
+      "text": "I don't think the price is cheap.",
+      "meaning": "가격이 싼 것 같지는 않아요.",
+      "chunks": [
+        "I don't think",
+        "the price is cheap",
+        "I don't think the price is cheap"
+      ]
+    },
+    {
+      "text": "But I think the location is perfect.",
+      "meaning": "하지만 위치는 완벽한 것 같아요.",
+      "chunks": [
+        "But I think",
+        "the location is perfect",
+        "But I think the location is perfect"
+      ]
+    },
+    {
+      "text": "So I decided to sign up.",
+      "meaning": "그래서 등록하기로 했어요.",
+      "chunks": [
+        "So I decided",
+        "to sign up",
+        "So I decided to sign up"
+      ]
+    }
+  ],
+  "dialogue": [
+    {
+      "a": "Why did you go to the gym?",
+      "b": "I wanted to ask about the price."
+    },
+    {
+      "a": "What did you ask the staff?",
+      "b": "I asked, can you explain the membership plans?"
+    },
+    {
+      "a": "Which plan did you choose?",
+      "b": "I said, I'd like to try it for one month."
+    },
+    {
+      "a": "What did you think about the gym?",
+      "b": "I think the gym is clean."
+    },
+    {
+      "a": "Was the price cheap?",
+      "b": "No, I don't think the price is cheap."
+    }
+  ],
+  "freeTalkQuestions": [
+    "Do you go to a gym?",
+    "What do you usually ask before you sign up?",
+    "Can you ask about the price in English?",
+    "What would you like to try for one month?",
+    "What do you think about gyms near your house?"
+  ]
+}
